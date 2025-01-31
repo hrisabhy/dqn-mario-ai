@@ -13,5 +13,22 @@ Make sure you have Python 3.6+ installed
 1. Clone the repository:
 
    ```bash
-   git clone url
-   cd dqn-super-mario-bros
+   git clone https://github.com/hrisabhy/dqn-mario-ai.git
+   cd dqn-mario-ai
+   ```
+
+2. Create a virtual environment (recommended)
+   ```
+      python3 -m venv venv
+      source venv/bin/activate  # On Windows, use venv\Scripts\activate
+   ```
+
+3. Install the required Python packages
+   ```
+      pip install -r requirements.txt
+   ```
+
+### Running the Project
+```
+   python main.py
+```
